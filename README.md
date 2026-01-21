@@ -30,7 +30,7 @@ Um projeto simples e elegante de chat ao vivo em tempo real, desenvolvido com No
 1. **Clone o repositório**:
 
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/MarcelloBelem/node-chat-live.git
    cd node-chat-live
    ```
 
@@ -108,7 +108,7 @@ Para contribuir:
 
 ## 📄 Licença
 
-Este projeto está sob a licença **ISC**. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
