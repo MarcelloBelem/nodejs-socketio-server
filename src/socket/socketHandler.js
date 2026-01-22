@@ -17,8 +17,13 @@ export default (io) => {
     });
 
     //Broadcast de Mensagens
-    socket.on("chat:msg", (text) => {
-      io.emit("chat:msg", { from: socket.id, text, at: Date.now() });
+    socket.on("chat:msg", (text, clientUser) => {
+      io.emit("chat:msg", {
+        from: socket.id,
+        clientUser,
+        text,
+        at: Date.now(),
+      });
     });
 
     socket.on("disconnect", () => {

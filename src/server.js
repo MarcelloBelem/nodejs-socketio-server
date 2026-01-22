@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const PORT = process.env.PORT || 3000;
 
 const io = new Server(server, {
-  cors: { origin: "https://devchaton.netlify.app" },
+  cors: { origin: "*" },
 });
 
 socketHandler(io);
