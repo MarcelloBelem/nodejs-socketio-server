@@ -1,4 +1,4 @@
-# 🚀 Chat Live
+# 🚀 Live Chat
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-5.2.1-blue.svg)](https://expressjs.com/)
